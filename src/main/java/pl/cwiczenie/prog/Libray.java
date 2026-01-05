@@ -9,7 +9,7 @@ public class Libray {
         Book book2 = new Book("Ogniem i Mieczem", "Henryk Sienkiewicz",2023, 358,
                 "PWN", "9784273271875");
         Book book3 = new Book("Bajki dla dzieci", "Jan Brzechwa", 1998, 45,
-                "WAM", "94356373271890");
+                "WAM");
 
 
         System.out.println(appName);
@@ -18,11 +18,6 @@ public class Libray {
         book2.printInfo();
         book3.printInfo();
 
-//        System.out.println(book1);
-//        System.out.println(book1.author);
-//        System.out.println(book1.releaseDate);
-//        System.out.println(book1.pages);
-//        System.out.println(book1.publisher);
-//        System.out.println(book1.isbn);
+
     }
 }

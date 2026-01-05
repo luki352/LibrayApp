@@ -7,14 +7,18 @@ public class Book {
     int pages;
     String publisher;
     String isbn;
-    Book(String bookTitle,String bookauthor, int bookReleaseDate,
-         int bookPages, String  bookPublisher, String bookIsbn){
-        title = bookTitle;
-        author = bookauthor;
-        releaseDate = bookReleaseDate;
-        pages = bookPages;
-        publisher = bookPublisher;
-        isbn = bookIsbn;
+    Book(String title,String author, int releaseDate,
+         int pages, String  publisher, String isbn){
+        this(title, author, releaseDate, pages, publisher);
+        this.isbn = isbn;
+    }
+    Book(String title,String author, int releaseDate,
+         int pages, String  publisher){
+        this.title = title;
+        this.author = author;
+        this.releaseDate = releaseDate;
+        this.pages = pages;
+        this.publisher = publisher;
     }
     void printInfo(){
         String info = "Tytuł: "+ title + "\n"+" Autor: " + author + "\n Rok wydania: " + releaseDate+
