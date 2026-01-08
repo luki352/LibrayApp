@@ -1,8 +1,10 @@
-package pl.cwiczenie.prog;
+package pl.developzpl.libray.app;
+
+import pl.developzpl.libray.model.Book;
 
 public class Libray {
     public static void main(String[] args) {
-        final String appName = "Biblioteka v0.2";
+        final String appName = "Biblioteka v0.3";
 
         Book book1 = new Book("W pustyni i puszczy","Henryk Sienkiewicz", 2010,
                 296, "Greg", "9788373271890");
