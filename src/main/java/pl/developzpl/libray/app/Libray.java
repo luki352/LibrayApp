@@ -20,7 +20,7 @@ public class Libray {
         book1.setPages(150);
         System.out.println("Książka pierwsza w katalogu:  "+ book1.getPages());
 
-//        book1.printInfo();
+        book1.printInfo();
         book2.printInfo();
         book3.printInfo();
 

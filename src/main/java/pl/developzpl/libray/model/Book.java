@@ -7,6 +7,7 @@ public class Book {
     private int pages;
     private String publisher;
     private String isbn;
+
    public Book(String title,String author, int releaseDate,
          int pages, String  publisher, String isbn){
         this(title, author, releaseDate, pages, publisher);
@@ -60,6 +61,10 @@ public class Book {
     public void printInfo(){
         String info = "Tytuł: "+ title + "\n"+" Autor: " + author + "\n Rok wydania: " + releaseDate+
                 "\n Ilość stron: "+ pages + "\n wydawnictwo: "+ publisher + "\n Numer ISBN: "+ isbn;
+        if (isbn == null){
+            info = "Tytuł: "+ title + "\n"+" Autor: " + author + "\n Rok wydania: " + releaseDate+
+                    "\n Ilość stron: "+ pages + "\n wydawnictwo: "+ publisher;
+        }
         System.out.println(info);
     }
 }
