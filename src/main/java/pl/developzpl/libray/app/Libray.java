@@ -16,7 +16,11 @@ public class Libray {
 
         System.out.println(appName);
         System.out.println("Książki dostępne w bibiliotece:");
-        book1.printInfo();
+
+        book1.setPages(150);
+        System.out.println("Książka pierwsza w katalogu:  "+ book1.getPages());
+
+//        book1.printInfo();
         book2.printInfo();
         book3.printInfo();
 
