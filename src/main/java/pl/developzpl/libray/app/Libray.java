@@ -4,7 +4,7 @@ import pl.developzpl.libray.model.Book;
 
 public class Libray {
     public static void main(String[] args) {
-        final String appName = "Biblioteka v0.4";
+        final String appName = "Biblioteka v0.5";
 
         Book [] books  = new Book[1000];
         books[0] = new Book("W pustyni i w puszczy", "Henryk Sienkiewicz", 2010, 296,
